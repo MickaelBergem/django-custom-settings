@@ -6,11 +6,11 @@ from os import path
 here = path.abspath(path.dirname(__file__))
 
 # Get the long description from the relevant file
-with open(path.join(here, 'DESCRIPTION.rst'), encoding='utf-8') as f:
+with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='django-custom-settings',
+    name='django-custom-settings-templatetag',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
@@ -54,7 +54,7 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords='django settings template tag',
+    keywords='django settings configuration template tag',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
@@ -83,9 +83,5 @@ setup(
     # In this case, 'data_file' will be installed into '<sys.prefix>/my_data'
     data_files=[],
 
-    entry_points={
-        'console_scripts': [
-            'sample=sample:main',
-        ],
-    },
+    entry_points={},
 )
