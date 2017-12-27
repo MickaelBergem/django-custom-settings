@@ -2,10 +2,9 @@ from django.test import TestCase
 from django.template import Context, Template
 
 
-# Yay, I'm testing a custom template tag !!
 class CustomSettingsTests(TestCase):
 
-    really_random_value = 'Really Random Value !'
+    really_random_value = 'Really Random Value!'
 
     def test_render_variable(self):
         """ Test if a given variable is well rendered """
