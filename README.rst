@@ -5,10 +5,10 @@ Provides a very simple tag to load settings variables from Django templates.
 If the variable doesn't exists, an empty string is returned.
 
 .. image:: https://travis-ci.org/MickaelBergem/django-custom-settings.svg?branch=master
-:target: https://travis-ci.org/MickaelBergem/django-custom-settings
+   :target: https://travis-ci.org/MickaelBergem/django-custom-settings
 
 .. image:: https://coveralls.io/repos/github/MickaelBergem/django-custom-settings/badge.svg?branch=master
-:target: https://coveralls.io/github/MickaelBergem/django-custom-settings?branch=master
+   :target: https://coveralls.io/github/MickaelBergem/django-custom-settings?branch=master
 
 Install
 -------
