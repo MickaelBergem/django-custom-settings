@@ -4,7 +4,7 @@ from django.conf import settings
 register = template.Library()
 
 
-@register.assignment_tag
+@register.simple_tag
 def settings_value(name):
     """
     Return the settings variable corresponding to `name`, or an empty string if
